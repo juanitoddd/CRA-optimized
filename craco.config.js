@@ -31,9 +31,13 @@ module.exports = {
       options: {
         source: "options",
         aliases: {
+          "@src": "src",
+          "@styles": "src/styles",
+          "@store": "src/store",
+          "@root": "src/root",
+          "@auth": "src/components/auth",
           "@styles": "src/styles",
           "@ducks": "src/ducks",
-          "@store": "src/store",
           "@components": "src/components",
           "@utils": "src/utils"
         }

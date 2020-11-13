@@ -1,0 +1,49 @@
+// App.scss
+
+header {
+
+    .ant-menu-horizontal>.ant-menu-item,
+    .ant-menu-horizontal>.ant-menu-item:hover {
+        border-bottom: none;
+    }
+}
+
+.ant-switch-checked {
+    &.switchSuccess {
+        background-color: #75a538;
+    }
+}
+
+// Workspace.scss
+
+.ant-collapse {
+    border-radius: 0px !important;
+    border: none !important;
+}
+
+.ant-collapse-content {
+    padding: 0px !important;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header {
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 7px 0 5px 28px !important;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header .arrow {
+    line-height: 34px !important;
+    left: 10px !important;
+}
+
+.ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header {
+    border-radius: 0px !important;
+}
+.ant-divider-horizontal {
+    margin: 0px !important;
+    .ant-divider-inner-text {
+        color: #bbb;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+}
